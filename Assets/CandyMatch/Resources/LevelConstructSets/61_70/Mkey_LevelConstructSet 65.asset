@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey_LevelConstructSet 65
+  m_EditorClassIdentifier: 
+  levelStartStoryPage: {fileID: 0}
+  levelWinStoryPage: {fileID: 0}
+  hardFlag: 0
+  pathTELBR: 1
+  vertSize: 8
+  horSize: 9
+  distX: 0
+  distY: 0
+  scale: 0.9
+  backGroundNumber: 0
+  spawnCells: []
+  spawnOffsets: []
+  cells:
+  - row: 0
+    column: 0
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 0
+    column: 1
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 0
+    column: 2
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 0
+    column: 3
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 0
+    column: 4
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 0
+    column: 5
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 0
+    column: 6
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 0
+    column: 7
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 0
+    column: 8
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 1
+    column: 0
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 1
+    column: 1
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 1
+    column: 2
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 1
+    column: 3
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 1
+    column: 4
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 1
+    column: 5
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 1
+    column: 6
+    gridObjects:
+    - id: 1
+      hits: 0
+  - row: 1
+    column: 7
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 1
+    column: 8
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 2
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 2
+    column: 2
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 3
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 4
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 5
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 6
+    gridObjects:
+    - id: 500000
+      hits: 0
+  - row: 2
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 2
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 3
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 3
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 3
+    column: 2
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 3
+    column: 3
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 3
+    column: 4
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 3
+    column: 5
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 3
+    column: 6
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 3
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 3
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 4
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 4
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 4
+    column: 2
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 4
+    column: 3
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 4
+    column: 4
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 4
+    column: 5
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 4
+    column: 6
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 4
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 4
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 5
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 5
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 5
+    column: 2
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 5
+    column: 3
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 5
+    column: 4
+    gridObjects:
+    - id: 400002
+      hits: 0
+  - row: 5
+    column: 5
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 5
+    column: 6
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 5
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 5
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 6
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 6
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 6
+    column: 2
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 6
+    column: 3
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 6
+    column: 4
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 6
+    column: 5
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 6
+    column: 6
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 6
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 6
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 7
+    column: 0
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 7
+    column: 1
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 7
+    column: 2
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 7
+    column: 3
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 7
+    column: 4
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 7
+    column: 5
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 7
+    column: 6
+    gridObjects:
+    - id: 600001
+      hits: 1
+  - row: 7
+    column: 7
+    gridObjects:
+    - id: 600001
+      hits: 0
+  - row: 7
+    column: 8
+    gridObjects:
+    - id: 600001
+      hits: 0
+  levelMission:
+    description: Mission
+    timeConstrain: 0
+    movesConstrain: 25
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 500000
+        count: 13
+      - id: 600001
+        count: 48
+  boardJS: 
+  usedMatchObjects: e8030000e9030000eb030000ed030000

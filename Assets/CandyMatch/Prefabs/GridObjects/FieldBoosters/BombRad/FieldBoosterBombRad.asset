@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a547acdc1c3ba474597b8a050b589410, type: 3}
+  m_Name: FieldBoosterBombRad
+  m_EditorClassIdentifier: 
+  gridObjectPrefab: {fileID: 7965174339716363240, guid: 24d965c8db01e5f49970a0b3e3056982,
+    type: 3}
+  guiHelperBrefab: {fileID: 2611514088169722399, guid: 9eec4d4ac2cb47443b470c56dd2dedbd,
+    type: 3}

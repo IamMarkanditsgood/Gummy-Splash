@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384ae313a5d743c4aa42d5ebbd3a14f9, type: 3}
+  m_Name: GameObjectSet_1
+  m_EditorClassIdentifier: 
+  backGrounds:
+  - {fileID: 21300000, guid: 3fa16d5e3f79c004ba6eb4334e7c18a9, type: 3}
+  - {fileID: 21300000, guid: c983aae40f1a98045b154a674296781d, type: 3}
+  - {fileID: 21300000, guid: 82c09942610e7e9438c2c987a0eaf6f0, type: 3}
+  - {fileID: 21300000, guid: 09e9544bd30ef5c4e9942c6e8c1e2d17, type: 3}
+  - {fileID: 21300000, guid: e4e1aa5ebe8275b42ba0caa31b7ca2b0, type: 3}
+  gridCellOdd: {fileID: 1620328770448470, guid: 6e8d9dcd890e3f141963f71872da3551,
+    type: 3}
+  gridCellEven: {fileID: 1620328770448470, guid: 47be6d719c5a7974cb8f4c038cf302db,
+    type: 3}
+  disabledObject: {fileID: 3673614062378437717, guid: 56048d36c326b114696466670688734a,
+    type: 3}
+  blockedObjects:
+  - {fileID: 4302452134904552185, guid: b2b7d2ddf34952245a4ccb1b9bc4efc0, type: 3}
+  - {fileID: 4302452134904552185, guid: d00b3c7e2bd21d94abbad6aae5cf82b8, type: 3}
+  - {fileID: 4302452134904552185, guid: 0c66f07ecae30f14a86690275b1d2897, type: 3}
+  - {fileID: 4302452134904552185, guid: f5d46ee325012f246a32036c51d337b4, type: 3}
+  - {fileID: 4302452134904552185, guid: ef731d7c72c5fe143a22f678c743cb54, type: 3}
+  - {fileID: 4302452134904552185, guid: 303ff34335195df46b0aa78fcb7e05a9, type: 3}
+  - {fileID: 4302452134904552185, guid: bf9efe0ccb0a26b4b8dee0efcace3f4c, type: 3}
+  - {fileID: 4302452134904552185, guid: a3c3be29319e484479379fb85feb4706, type: 3}
+  - {fileID: 4302452134904552185, guid: aa3c86b0720cc4045a762768aa91084e, type: 3}
+  blockedBoxObjects:
+  - {fileID: 4211572942655078626, guid: 6fe6cc574ed706b44a560eedd5714152, type: 3}
+  - {fileID: 4211572942655078626, guid: 71d1b3f4a4b3a3041ae5afc0d932dbc1, type: 3}
+  - {fileID: 4211572942655078626, guid: 1f0300a23975c19439a2fd21066559d0, type: 3}
+  - {fileID: 4211572942655078626, guid: 356c4f948030805498aab9d3cdf032a7, type: 3}
+  - {fileID: 4211572942655078626, guid: 90d12269544097940998cf6783063050, type: 3}
+  - {fileID: 4211572942655078626, guid: 46c8fd71f3f41474a89459fb75d105c3, type: 3}
+  - {fileID: 4211572942655078626, guid: 93e1bd390400fe4469ac815d617b77c9, type: 3}
+  matchObjects:
+  - {fileID: 1189668015041816824, guid: ebe21826dffa93647a1dc79952158ca3, type: 3}
+  - {fileID: 1189668015041816824, guid: d251553794fcb8c4ab36dad6eb234efb, type: 3}
+  - {fileID: 1189668015041816824, guid: 7fde80697310fea40b2838fb290e9fa3, type: 3}
+  - {fileID: 1189668015041816824, guid: 01b34c7d1beda1546862427e12438c63, type: 3}
+  - {fileID: 1189668015041816824, guid: 457b7767eb55b3f4da9c6c59682ef530, type: 3}
+  - {fileID: 1189668015041816824, guid: 1a9823378f21b5d4b89c80cdf15d6e30, type: 3}
+  overlayObjects:
+  - {fileID: 5623435986698399764, guid: 70ddf8f3bcc44de46a0656386752d0f8, type: 3}
+  - {fileID: 5623435986698399764, guid: 0eb5e15b806e8ca4f8092f40a0e96d4c, type: 3}
+  underlayObjects:
+  - {fileID: 4801992064559212486, guid: 9a13a837742bb5a4d828a7a6744cfca8, type: 3}
+  subUnderlayMCObjects:
+  - {fileID: -2027995816183100286, guid: 1a7d019c1b0648046aeef76b627c4433, type: 3}
+  - {fileID: -2027995816183100286, guid: 57fe654d3e5ce0d43a659fe7370f7a06, type: 3}
+  - {fileID: -2027995816183100286, guid: ccf181a7d48d32f42aae3c135e7e2425, type: 3}
+  - {fileID: -2027995816183100286, guid: 5c361505393b0a247bed303f62d90842, type: 3}
+  dynamicClickBombObjectVertical: {fileID: 5482199133485035081, guid: fad81613c71ef2244b6afa9dc14a208b,
+    type: 3}
+  dynamicClickBombObjectHorizontal: {fileID: 4296949312292318210, guid: 3023ac05a94b6284a89a3a88d5ffa829,
+    type: 3}
+  dynamicClickBombObjectRadial: {fileID: 7965174339716363240, guid: 24d965c8db01e5f49970a0b3e3056982,
+    type: 3}
+  dynamicClickBombObjectRandom: {fileID: 8771247294944998028, guid: 71b67d63975771147bc472d8f8e842f5,
+    type: 3}
+  dynamicClickBombObjectColor: {fileID: -3879330421455904893, guid: c131a45baf460c84dac95c1f9bbd935b,
+    type: 3}
+  staticMatchBombObjectVertical: {fileID: 0}
+  staticMatchBombObjectHorizontal: {fileID: 0}
+  staticMatchBombObjectRadial: {fileID: 0}
+  staticMatchBombObjectColor: {fileID: 0}
+  boosterObjects:
+  - {fileID: 11400000, guid: 7ae742f1f25a41040bb05fe7184f8ae0, type: 2}
+  - {fileID: 11400000, guid: 8d80b7cdece668d4a9852f7153b592cc, type: 2}
+  - {fileID: 11400000, guid: ec803ba517d5c9d4993b15bf61e61d34, type: 2}
+  - {fileID: 11400000, guid: 4c10c78603fb3554c852d367237cb268, type: 2}
+  dynamicBlockerObjects:
+  - {fileID: -8015779086680905049, guid: c888a9fdcf17aa04592e8735e397c49b, type: 3}
+  - {fileID: -3506058453912108059, guid: f1d1b74dc8052c44799fca8d91ad2856, type: 3}
+  hiddenObjects: []
+  fallingObjects:
+  - {fileID: 5304736701528430281, guid: f0ba6118a5afc3945b45e88da49348d8, type: 3}
+  treasureObjects: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b09f7f5d37a30c41ade72e1fd83dd8d, type: 3}
+  m_Name: BoosterDice
+  m_EditorClassIdentifier: 
+  funcPrefab: {fileID: 5424668365804094945, guid: fe5ad4e6eb31705469c6d6b3920da495,
+    type: 3}
+  activateHelperBrefab: {fileID: 114301382435503824, guid: 89b900fc816412b48b7e74456e422633,
+    type: 3}
+  guiHelpers:
+  - {fileID: 114301382435503824, guid: b37a7665025f175418d45b9495953a01, type: 3}
+  - {fileID: 114301382435503824, guid: 4fca245d684390745a6426744cb067c9, type: 3}
+  id: 300006

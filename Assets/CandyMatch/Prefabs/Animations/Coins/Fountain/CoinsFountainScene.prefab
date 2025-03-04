@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4459743450167626578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4459743450167626579}
+  - component: {fileID: 4459743450167626581}
+  - component: {fileID: -682663303333959450}
+  m_Layer: 5
+  m_Name: CoinsFountainScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4459743450167626579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459743450167626578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4459743450167626581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459743450167626578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa5c9245a08d1a499b5bca464acd9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinScale: 0.5
+  coinsCount: 10
+  maxDelay: 1
+  gravity: 9.8
+  lifeTime: 4
+  V01: {x: -4, y: 10, z: 0}
+  V02: {x: 4, y: 10, z: 0}
+  coinPrefab:
+  - {fileID: 3076355040973403272, guid: 82bc3e082d75d4c4686bfb85b5903de7, type: 3}
+  - {fileID: 3076355040973403272, guid: ca0a94a62d573014bbe51c42bbe36574, type: 3}
+  - {fileID: 3076355040973403272, guid: 8988dcc01140238448c1fe0d40672f87, type: 3}
+  radius: 1
+  autoJump: 0
+  autoJumpdelay: 0
+  target: {fileID: 0}
+  moveTime: 1
+  maxOffset: {x: 0, y: 0}
+  randomSpeed: 1
+  ease: 0
+  StartMoveEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  EndMoveEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  StartMoveEachEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  EndMoveEachEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-682663303333959450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459743450167626578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a791b9f20afdb4c9c4922d080cf6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickFirstEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4459743450167626581}
+        m_TargetAssemblyTypeName: Mkey.CoinProcAnim, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
