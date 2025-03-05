@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 1c57880858be8c24081bc12e685b4068, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0930028251addab44bf4eb0a2e6be6f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GuiObjectImage: {fileID: 0}
   ConstructorObjectImage: {fileID: 0}
-  id: 400003
   groupID: 
   canUseAsTarget: 0
   sequenced: 0
@@ -111,7 +110,6 @@ MonoBehaviour:
     type: 3}
   matchExplodePrefab: {fileID: 0}
   canSwap: 1
-  flyCurve: {fileID: 8029493878845550040}
   hitTargetEvent:
     m_PersistentCalls:
       m_Calls:

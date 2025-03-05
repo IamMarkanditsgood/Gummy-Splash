@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 namespace Mkey
 {
@@ -33,9 +34,9 @@ namespace Mkey
 
         [Space(8)]
         [SerializeField]
-        private Text LevelNumber;
+        private TMP_Text LevelNumber;
         [SerializeField]
-        private Text ScoreCount;
+        private TMP_Text ScoreCount;
 
         [Space(8)]
         [Header("Targets")]
@@ -119,7 +120,8 @@ namespace Mkey
                 SimpleTween.Value(ScoreCount.gameObject, oldCount, newCount, 0.5f).SetOnUpdate((float val) =>
                 {
                     oldCount = (int)val;
-                    SetTextString(ScoreCount,oldCount.ToString());
+                    ScoreCount.text = oldCount.ToString();
+                    //SetTextString(ScoreCount,oldCount.ToString());
                 });
             }
         }

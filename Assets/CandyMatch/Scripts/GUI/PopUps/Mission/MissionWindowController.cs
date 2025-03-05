@@ -2,13 +2,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 namespace Mkey
 {
     public class MissionWindowController : PopUpsController
     {
         [SerializeField]
-        private Text levelText;
+        private TMP_Text levelText;
 
         [Space(8)]       
         [Header ("Targets")]

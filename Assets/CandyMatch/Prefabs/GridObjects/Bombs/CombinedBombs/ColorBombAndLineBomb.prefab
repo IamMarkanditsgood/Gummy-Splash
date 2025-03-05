@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 96
-  m_Sprite: {fileID: 21300000, guid: a7190352da90bac4f974fbed9ee98acf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3629093293f90064db3f2fe7b9935445, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,10 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af256b0bb7f1b6428c698b90a7ea798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explodeClip: {fileID: 0}
   explodePrefab: {fileID: 6060692031384571610, guid: f6e89a9d957410146853135145369df6,
     type: 3}
-  rockets: []
+  explodeWave: 1
   bombLineVertPrefab: {fileID: 5482199133485035081, guid: fad81613c71ef2244b6afa9dc14a208b,
     type: 3}
   bombLineHorPrefab: {fileID: 4296949312292318210, guid: 3023ac05a94b6284a89a3a88d5ffa829,
