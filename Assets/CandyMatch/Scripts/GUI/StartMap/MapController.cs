@@ -135,7 +135,7 @@ namespace Mkey
         private IEnumerator SetMapPositionToAciveButton()
         {
             yield return new WaitForSeconds(0.01f);
-            if (sRect)
+            /*if (sRect)
             {
                 Debug.Log("scrolling rect");
                 int bCount = biomesCount;
@@ -152,7 +152,7 @@ namespace Mkey
             else
             {
                 Debug.Log("no scrolling rect");
-            }
+            }*/
         }
 
         private void SetButtonActive(int buttonNumber, bool active, bool isPassed)

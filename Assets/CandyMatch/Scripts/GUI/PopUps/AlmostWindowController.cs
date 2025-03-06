@@ -22,7 +22,7 @@ namespace Mkey
             int almostCoins = defaultCoins;
             if (MBoard) almostCoins = MBoard.almostCoins;
             SetCoins(almostCoins);
-            if (playOnButton) playOnButton.gameObject.SetActive(CoinsHolder.Count >=almostCoins);
+            if (playOnButton) playOnButton.gameObject.SetActive(true);
         }
 
         private void SetCoins(int coins)

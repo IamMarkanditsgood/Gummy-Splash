@@ -254,6 +254,10 @@ namespace Mkey
 
         public PopUpsController ShowPopUpByDescription(string description)
         {
+            if(description == "almost")
+            {
+                description = "failed";
+            }
             PopUpsController popup_prefab = GetPopUpPrefabByDescription(description);
             PopUpsController pUp = ShowPopUp(popup_prefab, null, null);
             return pUp;

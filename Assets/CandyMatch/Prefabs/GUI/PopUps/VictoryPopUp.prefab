@@ -1355,8 +1355,8 @@ MonoBehaviour:
   starLeftEmpty: {fileID: 1487339038458658}
   starMiddleEmpty: {fileID: 1733220329091466}
   starRightEmpty: {fileID: 1879817713565960}
-  LevelNumber: {fileID: 0}
-  ScoreCount: {fileID: 0}
+  LevelNumber: {fileID: 4215041705439895602}
+  ScoreCount: {fileID: 3321740374421092258}
   targetPrefab: {fileID: 7251167717725946833, guid: 59fa539adeee1464b9136fe6a59a3f42,
     type: 3}
   targetsContainer: {fileID: 224715964768085064}
