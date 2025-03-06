@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Mkey;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Device;
@@ -107,11 +108,8 @@ public class DailyGift : MonoBehaviour
 
     private void GiveCoins(int amount)
     {
-        int coins = PlayerPrefs.GetInt("PlayerCoins", 0);
-        coins += amount;
-        PlayerPrefs.SetInt("PlayerCoins", coins);
-        PlayerPrefs.Save();
-        Debug.Log($"Received {amount} coins. Total: {coins}");
+        CoinsHolder.Add(amount);
+        Debug.Log($"Received {amount} coins. Total: {CoinsHolder.Count}");
     }
     public void CloseScreen()
     {

@@ -25,6 +25,7 @@ public class DailyBonus : MonoBehaviour
     [SerializeField] private GameObject[] receivedText; // Панелі з днями
     [SerializeField] private GameObject[] borders;
     [SerializeField] private GameObject[] _Prices;
+    [SerializeField] private Text _coins;
 
     private int currentDay;
     private const string LastClaimKey = "LastClaimDate";
@@ -172,7 +173,8 @@ public class DailyBonus : MonoBehaviour
 
     private void GiveCoins(int amount)
     {
-        UnityEngine.Debug.Log(amount);
+ 
         CoinsHolder.Add(amount);
+        Debug.Log(CoinsHolder.Count);
     }
 }

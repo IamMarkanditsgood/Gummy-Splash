@@ -553,8 +553,11 @@ namespace Mkey
                         break;
                     case STT.Vector3TweenMove:
                         currPosition = (timeLeft) ? endPosition : startPosition + new Vector3(EaseFunc(currTime, dPosition.x, tweenTime), EaseFunc(currTime, dPosition.y, tweenTime), EaseFunc(currTime, dPosition.z, tweenTime));
-                        if (gameObject) gameObject.transform.position = currPosition;
-                        UpdateCallBackV3?.Invoke(currPosition);
+                        if (gameObject && !float.IsNaN(currPosition.x) && !float.IsNaN(currPosition.y) && !float.IsNaN(currPosition.z))
+                        {
+                            gameObject.transform.position = currPosition;
+                            UpdateCallBackV3?.Invoke(currPosition);
+                        }
                         break;
                 }
             }

@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 namespace Mkey
 {
@@ -59,6 +60,8 @@ namespace Mkey
         private ScoreHolder MScore => ScoreHolder.Instance;
         private StarsHolder MStars => StarsHolder.Instance;
         private GameLevelHolder MGLevel => GameLevelHolder.Instance;
+
+        private int score;
         #endregion temp
 
         #region regular
@@ -83,6 +86,7 @@ namespace Mkey
 
         public override void RefreshWindow()
         {
+            score = 0;
             CreateTargets();
             SetScore(ScoreHolder.Count);
             SetStars(StarsHolder.Count);
@@ -116,6 +120,7 @@ namespace Mkey
             if (ScoreCount)
             {
                 int newCount = score;
+                CoinsHolder.Add(newCount);
                 SimpleTween.Cancel(ScoreCount.gameObject, false);
                 SimpleTween.Value(ScoreCount.gameObject, oldCount, newCount, 0.5f).SetOnUpdate((float val) =>
                 {
